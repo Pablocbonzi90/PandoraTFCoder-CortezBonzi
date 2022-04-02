@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
     <link rel="stylesheet" href="/css/custom.css" />
     <link
       rel="stylesheet"
@@ -23,7 +22,7 @@
       content="desayunos sorpresa, picadas, meriendas, sopresa de cumpleaños, regalo de cumpleaños, desayunos Cordoba"
     />
   </head>
-  <body class="bg-primary h-100">
+  <body class="bg-primary">
     <header>
       <!-- Navbar -->
       <nav class="navbar navbar-expand-md navbar-light bg-secondary py-4">
@@ -69,66 +68,72 @@
       </nav>
     </header>
     <main>
-      <section class="primeraSeccion">
-        <div>
-          <h1>Contactate con nosotros</h1>
-        </div>
-        <!-- Formulario -->
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputName1" class="form-label"
-              >Nombre y Apellido</label
-            >
-            <input type="name" class="form-control" id="exampleInputName1" />
-          </div>
+      <section class="container py-3 px-3">
+        <div class="row">
+          <h1 class="text-danger">Contactate con nosotros</h1>
+          <!-- Formulario -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName1" class="form-label"
+                >Nombre y Apellido</label
+              >
+              <input type="name" class="form-control" id="exampleInputName1" />
+            </div>
 
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Correo electrónico</label
-            >
-            <input type="email" class="form-control" id="exampleInputEmail1" />
-          </div>
-          <div class="mb-3 form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >¿Desea recibir novedades e información de promociones?</label
-            >
-          </div>
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton1"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Consulta por
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li>
-                <a class="dropdown-item" href="#">Catering para evento</a>
-              </li>
-              <li><a class="dropdown-item" href="#">Desayuno soprpresa</a></li>
-              <li><a class="dropdown-item" href="#">Picada</a></li>
-            </ul>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Mensaje</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-warning">Enviar</button>
-          <button type="reset" class="btn btn-warning">Borrar</button>
-        </form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Correo electrónico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input bg-info"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >¿Desea recibir novedades e información de promociones?</label
+              >
+            </div>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Consulta por
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item" href="#">Catering para evento</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Desayuno soprpresa</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Picada</a></li>
+              </ul>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+            <button type="reset" class="btn btn-danger">Borrar</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer
